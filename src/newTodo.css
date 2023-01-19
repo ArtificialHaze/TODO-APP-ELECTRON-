@@ -1,0 +1,22 @@
+body {
+  background-color: #222323;
+  color: #fff;
+}
+
+input {
+  border-radius: 5px;
+  font-size: 15px;
+  border: 3px solid salmon;
+  transition: all 250ms ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  border: 3px solid tomato;
+}
+
+label {
+  color: cornflowerblue;
+  font-weight: bold;
+  text-transform: capitalize;
+}
